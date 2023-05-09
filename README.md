@@ -1,5 +1,6 @@
 # GNN_TumorDetection
-Aim: to create a novel graph neural network
+Aim: to create a novel graph neural network  
+
 How to reach: Modify Unet architecture to build a novel Graph Neural Network for the tumor detection,2018
 
 GUnet structure:  
