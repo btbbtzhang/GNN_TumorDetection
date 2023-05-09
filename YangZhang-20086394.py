@@ -273,7 +273,7 @@ feature_n = 128
 step_size = 1e-5
 input_image_size = 128
 ###### Question 2 (g) U-net Deep Learning model. Source: https://github.com/SlicerIGT/aigt/blob/master/Notebooks/Segmentation/SegmentationTraining.ipynb
-def unet(pretrained_weights = None, input_size = (input_image_size, input_image_size, 1)):
+def Gunet(pretrained_weights = None, input_size = (input_image_size, input_image_size, 1)):
     inputs = Input(input_size)
     conv1 = Conv2D(feature_n // 16, 3, activation = 'relu', padding = 'same', kernel_initializer = 'he_normal')(inputs)
     conv1 = Conv2D(feature_n // 16, 3, activation = 'relu', padding = 'same', kernel_initializer = 'he_normal')(conv1)
